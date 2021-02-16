@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  nginx:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.19.6
+    created: "2021-02-16T15:08:44.8182274-03:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: 6118f7bbba8d5f1bad935db5ea5692e22cdd680df89fe55968bfefd305bb6e16
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    - http://www.nginx.org
+    urls:
+    - nginx-8.5.3.tgz
+    version: 8.5.3
+generated: "2021-02-16T15:08:44.8112498-03:00"
